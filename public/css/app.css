@@ -32718,6 +32718,63 @@ select {
           animation: bounce 1s infinite;
 }
 
+.glyphicon-background{
+  display: inline-block;
+  padding: 0 7px 0 7px;
+  background-color: #5CB85C;
+  width: 60px;
+  height: 54px;
+  border-radius: 5px;
+  float:left;
+}
+
+.glyphicon-image{
+  height:50px;
+  padding-top:4px;
+}
+
+.div-inline{
+  display: inline-block;
+}
+
+.h3-inline{
+  float:left;
+  margin-top:10px;
+}
+
+.form-floating>label{
+  margin-left: 15px;
+}
+
+.mar-bottom{
+  margin-bottom:20px;
+}
+
+.resalt{
+  padding: 50px;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #EEEEEE;
+  border-radius:1em;
+}
+
+#nivel, #pais, #estado, #ciudad{
+  padding-top:10px;
+}
+
+.create-intable{
+  float:right;
+  display: inline-block;
+}
+
+#div-hidden{
+  border:1px bold #000;
+}
+
+.alto100{
+  height:100%;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -192182,4 +192239,3 @@ select {
             animation: bounce 1s infinite;
   }
 }
-
